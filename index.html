@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apeiron Solutions | Brand Visibility</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- HEADER & ACCESSIBLE NAVIGATION -->
+  <header class="nav-header" id="header">
+    <div class="container nav-container">
+      <a href="#" class="logo" aria-label="Apeiron Solutions Home">
+        <img src="./assest/apeiron-logo.png" />
+      </a>
+
+      <!-- Mobile Toggle with ARIA Attributes -->
+      <button class="mobile-toggle" id="mobile-menu-btn" aria-expanded="false" aria-controls="primary-navigation"
+        aria-label="Open navigation menu">
+        <span aria-hidden="true" class="hamburger-icon">☰</span>
+      </button>
+
+      <!-- Semantic Nav with ID matching aria-controls -->
+      <nav id="primary-navigation" class="nav-links" aria-label="Primary Navigation">
+        <ul class="nav-list" role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#methodology">Approach</a></li>
+          <li><a href="#works">Works</a></li>
+          <li class="nav-cta-item"><a href="#contact" class="btn btn-solid nav-cta">Discuss a Project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <h1>Building Brand Visibility With Purpose.</h1>
+          <p>Apeiron Solutions creates innovative and efficient brand visibility solutions that help brands establish a
+            meaningful presence across physical customer touchpoints.</p>
+          <a href="#works" class="btn mt-2">Explore Our Work</a>
+        </div>
+        <div class="hero-image img-reveal">
+          <img src="./assest/images/img26.jpeg" alt="Premium retail architecture space showcasing brand visibility"
+            loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-padding">
+      <div class="container about-grid">
+        <div class="about-title reveal">
+          <h2>Visibility, thoughtfully executed.</h2>
+        </div>
+        <div class="about-text reveal" style="transition-delay: 0.2s;">
+          <p>At Apeiron, we believe that every physical interaction between a brand and its audience is an opportunity
+            to communicate value. We act as a strategic partner to design, fabricate, and deploy comprehensive physical
+            branding solutions.</p>
+          <p>By blending timeless design principles with engineering precision, we ensure that your brand's physical
+            presence—whether in a retail environment, on a corporate campus, or traversing the city on a fleet—reflects
+            ultimate sophistication and corporate confidence.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- METHODOLOGY SECTION -->
+    <section id="methodology" class="methodology section-padding">
+      <div class="container">
+        <div class="reveal">
+          <h2 style="color: var(--clr-ivory)">Our Approach</h2>
+          <p>A meticulous, four-step process ensuring precision at every stage.</p>
+        </div>
+        <div class="process-grid">
+          <div class="process-step reveal">
+            <h3>01 Understand</h3>
+            <p>We analyze your brand DNA, target demographics, and spatial constraints to form a foundational strategy.
+            </p>
+          </div>
+          <div class="process-step reveal" style="transition-delay: 0.1s;">
+            <h3>02 Plan</h3>
+            <p>Our strategists and designers collaborate to architect a holistic visibility blueprint prioritizing
+              impact.</p>
+          </div>
+          <div class="process-step reveal" style="transition-delay: 0.2s;">
+            <h3>03 Execute</h3>
+            <p>Leveraging premium materials and state-of-the-art fabrication, we bring the strategic blueprint to life.
+            </p>
+          </div>
+          <div class="process-step reveal" style="transition-delay: 0.3s;">
+            <h3>04 Deliver</h3>
+            <p>Flawless installation and deployment across touchpoints, ensuring consistency and absolute quality.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="section-padding">
+      <div class="container">
+        <div class="services-header reveal">
+          <h2>Core Capabilities</h2>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <img src="./assest/images/img9.jpeg" alt="POP and POS Display Solutions" loading="lazy">
+            <div class="service-content">
+              <h3>POP / POS Display Solutions</h3>
+            </div>
+          </article>
+          <article class="service-card reveal" style="transition-delay: 0.1s;">
+            <img src="./assest/images/img18.jpeg" alt="Interior Graphics Design" loading="lazy">
+            <div class="service-content">
+              <h3>Interior Graphics</h3>
+            </div>
+          </article>
+          <article class="service-card reveal" style="transition-delay: 0.2s;">
+            <img src="./assest/images/img8.jpeg" alt="Fleet Graphics and Vehicle Branding" loading="lazy">
+            <div class="service-content">
+              <h3>Fleet Graphics</h3>
+            </div>
+          </article>
+          <article class="service-card reveal">
+            <img src="./assest/images/img20.jpeg" alt="Out of home OOH Advertising" loading="lazy">
+            <div class="service-content">
+              <h3>OOH (Out-of-Home)</h3>
+            </div>
+          </article>
+          <article class="service-card reveal" style="transition-delay: 0.1s;">
+            <img src="./assest/images/img23.jpeg" alt="Architectural Signage Solutions" loading="lazy">
+            <div class="service-content">
+              <h3>Signage Solutions</h3>
+            </div>
+          </article>
+          <article class="service-card reveal" style="transition-delay: 0.2s;">
+            <img src="./assest/images/img27.jpeg" alt="Structural Fabrication Displays" loading="lazy">
+            <div class="service-content">
+              <h3>Fabrication & Structural Displays</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS/PROJECTS SECTION (Modern Gallery) -->
+    <section id="works" class="section-padding" style="background-color: var(--clr-white);">
+      <div class="container">
+        <div class="works-header reveal">
+          <h2>Selected Works</h2>
+
+          <!-- Accessible Gallery Filters -->
+          <div class="gallery-filters" role="group" aria-label="Portfolio Filters">
+            <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-btn" data-filter="interior" aria-pressed="false">Interior</button>
+            <button class="filter-btn" data-filter="signage" aria-pressed="false">Signage</button>
+            <button class="filter-btn" data-filter="fleet" aria-pressed="false">Fleet</button>
+          </div>
+        </div>
+
+        <div class="modern-gallery-grid" id="gallery-grid">
+          <!-- Project 1 (Featured: spans 2 columns & 2 rows on desktop) -->
+          <figure class="gallery-item featured reveal" data-category="interior">
+            <div class="gallery-img-wrapper">
+              <img src="./assest/images/img29.jpeg"
+                alt="Aura Headquarters Interior Graphics in Stockholm" loading="lazy">
+              <div class="gallery-overlay">
+                <figcaption class="gallery-overlay-content">
+                  <h4>Lift lobby</h4>
+                  <span>Interior Graphics • Yelahanka</span>
+                </figcaption>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Project 2 (Standard square) -->
+          <figure class="gallery-item reveal" data-category="signage" style="transition-delay: 0.1s;">
+            <div class="gallery-img-wrapper">
+              <img src="./assest/images/img2.jpeg"
+                alt="Lumina Retail Flagship Signage in London" loading="lazy">
+              <div class="gallery-overlay">
+                <figcaption class="gallery-overlay-content">
+                  <h4>RMZ Ecoworld</h4>
+                  <span>Signage Solutions • Kormangala</span>
+                </figcaption>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Project 3 (Tall: spans 2 rows) -->
+          <figure class="gallery-item tall reveal" data-category="signage" style="transition-delay: 0.2s;">
+            <div class="gallery-img-wrapper">
+              <img src="./assest/images/img22.jpeg"
+                alt="Nova Tech Summit Fabrication Display in Berlin" loading="lazy">
+              <div class="gallery-overlay">
+                <figcaption class="gallery-overlay-content">
+                  <h4>Yoga Events</h4>
+                  <span>Fabrication Display • Whitefild</span>
+                </figcaption>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Project 4 (Wide: spans 2 columns) -->
+          <figure class="gallery-item wide reveal" data-category="fleet">
+            <div class="gallery-img-wrapper">
+              <img src="./assest/images/img34.jpeg"
+                alt="Meridian Fleet Rollout in Hebal" loading="lazy">
+              <div class="gallery-overlay">
+                <figcaption class="gallery-overlay-content">
+                  <h4>Vinya sticker</h4>
+                  <span>Fleet Graphics • Domlur</span>
+                </figcaption>
+              </div>
+            </div>
+          </figure>
+
+          <!-- Project 5 (Standard square) -->
+          <figure class="gallery-item reveal" data-category="interior" style="transition-delay: 0.1s;">
+            <div class="gallery-img-wrapper">
+              <img src="./assest/images/img15.jpeg"
+                alt="Apex Corporate Space" loading="lazy">
+              <div class="gallery-overlay">
+                <figcaption class="gallery-overlay-content">
+                  <h4>Divysree Corporate</h4>
+                  <span>Interior Graphics • Bangalore</span>
+                </figcaption>
+              </div>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRAND PHILOSOPHY -->
+    <section class="philosophy section-padding">
+      <div class="container reveal">
+        <h2>"Every touchpoint is an opportunity to build recognition."</h2>
+        <p>— The Apeiron Standard</p>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-padding">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <h2>Let's build something visible.</h2>
+          <p style="margin-top: 1rem;">Partner with us to elevate your brand's physical presence with strategic
+            foresight and premium execution.</p>
+
+          <address>
+            <strong>Apeiron Solutions</strong><br>
+            City Office<br>1st Floor, #8, Old Airport Service Road, Near Haiku Honda, Domlur, Bangalore- 560071<br><br>
+            E: <a href="mailto:robin@apeiron.solutions">robin@apeiron.solutions</a><br>
+            T: <a href="tel:+919945033455">+91 99450 33455</a><br>
+            E: <a href="mailto:srikanth@apeiron.solutions">srikanth@apeiron.solutions</a><br>
+            T: <a href="tel:+919742278735">+91 97422 78735</a>
+          </address>
+        </div>
+
+        <div class="contact-form reveal" style="transition-delay: 0.2s;">
+          <form id="inquiryForm" aria-label="Contact Form">
+            <div class="form-group">
+              <input type="text" id="name" required aria-required="true">
+              <label for="name">Full Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" required aria-required="true">
+              <label for="email">Corporate Email</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="company" required aria-required="true">
+              <label for="company">Company / Organization</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" rows="4" required aria-required="true"></textarea>
+              <label for="message">Project Details</label>
+            </div>
+            <button type="submit" class="btn btn-solid" style="width: 100%; border: none;">Submit Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3 class="logo">Apeiron.</h3>
+          <p style="color: #A0A0A0; margin-top: 1rem; max-width: 300px;">World-class corporate branding and physical
+            touchpoint solutions.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navigation</h4>
+          <ul role="list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#methodology">Approach</a></li>
+            <li><a href="#works">Works</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Social</h4>
+          <ul role="list">
+            <li><a href="#" aria-label="Apeiron on LinkedIn">LinkedIn</a></li>
+            <li><a href="#" aria-label="Apeiron on Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Apeiron on X / Twitter">X / Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Apeiron Solutions. All rights reserved.</p>
+        <div style="display:flex; gap: 1rem;">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- External JavaScript -->
+  <script src="main.js" defer></script>
+</body>
+
+</html>
